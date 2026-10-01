@@ -1,0 +1,219 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2933;
+}
+
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 24px 60px;
+}
+
+.app-header h1 {
+  font-size: 22px;
+  margin: 0 0 2px;
+  color: #1f3864;
+}
+
+.subtitle {
+  margin: 0 0 18px;
+  color: #5b6b7a;
+  font-size: 14px;
+}
+
+.panel {
+  background: #fff;
+  border: 1px solid #d7e1ea;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+.block {
+  padding: 0;
+}
+
+.block-divider {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #e3e8ee;
+}
+
+.section-title {
+  font-size: 15px;
+  color: #1f3864;
+  margin: 0 0 14px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.radio-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.radio-row input {
+  accent-color: #ed7d31;
+}
+
+.period-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.period-bar select {
+  padding: 4px 8px;
+  border: 1px solid #b9cde0;
+  border-radius: 4px;
+}
+
+.hint {
+  margin-left: auto;
+  font-weight: bold;
+  font-style: italic;
+  color: #1f3864;
+}
+
+.master-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.master-check input {
+  width: 16px;
+  height: 16px;
+  accent-color: #1f3864;
+  cursor: pointer;
+}
+
+.chart-container {
+  background: #fff;
+  border: 1px solid #e3e8ee;
+  padding: 10px;
+}
+
+.export-bar {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.export-bar button {
+  background: #e2efda;
+  border: 1px solid #a9d18e;
+  color: #1f3864;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.export-bar button:hover {
+  background: #c6e0b4;
+}
+
+.source {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #7a8b99;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  border: 1px solid #d7e1ea;
+}
+
+.pib-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13px;
+  min-width: 900px;
+}
+
+.pib-table thead th {
+  background: #1f3864;
+  color: #fff;
+  padding: 8px 10px;
+  position: sticky;
+  top: 0;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.pib-table thead th.label-col {
+  text-align: left;
+  min-width: 260px;
+}
+
+.pib-table tbody tr:nth-child(even) {
+  background: #eaf1f8;
+}
+
+.pib-table td {
+  padding: 6px 10px;
+  text-align: right;
+  white-space: nowrap;
+  border-bottom: 1px solid #eef2f6;
+}
+
+.pib-table td.label-col {
+  text-align: left;
+  color: #1f3864;
+}
+
+.row-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.row-label input[type='checkbox'] {
+  width: 15px;
+  height: 15px;
+  flex: 0 0 auto;
+  accent-color: #1f3864;
+  cursor: pointer;
+}
+
+.label-text.indent-1 {
+  padding-left: 22px;
+  color: #40566b;
+}
+
+.pib-table td.bold {
+  font-weight: 700;
+}
+
+.pib-table tr.row-hidden td {
+  color: #c3cdd6;
+}
+
+.pib-table td.nd {
+  color: #b3bdc7;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.pib-table tr.spacer td {
+  padding: 2px;
+  border: none;
+  background: #fff;
+}

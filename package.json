@@ -1,0 +1,24 @@
+{
+  "name": "pib-react",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Comptes Nationaux Rebasés (base 2007) - Madagascar - Origines et emplois des ressources (1984-2006).Reproduction React du portail INSTAT.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7",
+    "xlsx": "^0.18.5",
+    "file-saver": "^2.0.5",
+    "html-to-image": "^1.11.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.1"
+  }
+}
